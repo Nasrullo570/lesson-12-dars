@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    line-height: 1.5;
+    color: #212529;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 109px;
+    padding: 1em;
+    background: #fee2b3;
+    position: absolute;
+    top: 0;
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .container .notary {
+    line-height: 70px;
+    margin-right: 500px;
+    cursor: pointer;
+
+}
+
+.header .container .home {}
+
+.header .container .home ul {
+    display: flex;
+}
+
+.header .container .home ul li {
+    list-style: none;
+}
+
+.header .container .home ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 20px 0;
+    margin: 0 15px;
+    color: #364d59;
+    /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+}
+
+.public .img img {
+    width: 100%;
+    height: 120vh;
+}
+
+.public .img {
+    top: 109px;
+    /* position: relative; */
+}
+
+.public .box {
+    display: flex;
+    justify-content: flex-end;
+    top: 200px;
+    position: absolute;
+    align-items: center;
+}
+
+.box .legel {
+    color: #fff;
+    width: 40%;
+
+}
+
+.box .legel h1 {
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.box .legel h1 p {
+    font-weight: 900;
+}
+
+.box .book {
+    background: #fff;
+    width: 35%;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+.box .book .oq h3 {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 40px 0 20px 40px;
+    margin-top: 40px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.box .book .input input {
+    display: block;
+    margin: 0 auto;
+    width: 84%;
+    padding: 18px;
+    margin-bottom: 30px;
+}
+
+.box .book .input button {
+    background: #fee2b3;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    border: 0;
+    margin-bottom: 40px;
+    width: 84%;
+    font-size: 18px;
+}
+
+.box .book .input button:hover {
+    background: #fed48d;
+    border-color: #fdcf81;
+}
+
+.practica {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    /* margin: 0 115px; */
+}
+
+.practica .law {
+    color: #212529;
+    text-align: center;
+}
+
+.practica .law h2 {
+    color: #212529;
+    font-weight: 100;
+}
+
+.practica .law h2 strong {
+    font-weight: bold;
+    color: black;
+
+}
+
+.practica .law p {
+    margin-bottom: 48px;
+}
+
+.practica .box-6 {
+    display: flex;
+    margin: 0 115px;
+}
+
+.practica .box-6 .bank {
+    padding: 30px;
+    background: #fff;
+    margin: 24px 15px;
+}
+
+.practica .box-6 .bank .text p {
+    opacity: .7;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.practica .box-6 .bank .icon .sariq {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fdcf81;
+    opacity: .8;
+    margin: 28px 0;
+
+}
+
+.practica .box-6 .bank .icon i {
+    position: relative;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 28px 0;
+
+}
+
+.work {
+    display: flex;
+    padding: 80px 0;
+}
+
+.work .rasmlar {
+    display: flex;
+}
+
+.work .rasm1 {
+    width: 100%;
+}
+
+.work .rasm img {
+    width: 300px;
+    height: 400px;
+    /* margin-left: 50px; */
+}
+
+.work .rasmlar .rasm1 img {
+    margin-left: 136px;
+}
+
+.work .rasmlar .rasm2 img {
+    margin-right: 50px;
+    margin-left: 29px;
+}
+
+.work .lorem {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.work .lorem h1 {
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+
+.work .lorem p {
+    margin-top: 20px;
+}
+
+.work .lorem button {
+    margin-top: 90px;
+    padding: 15px 30px;
+    font-size: 15px;
+    background: #fee2b3;
+    border: 0;
+}
+
+.work .lorem button:hover {
+    background: #fdcf81;
+}
+
+.happi {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.happi .happy h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    opacity: .9;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+
+.happi .radus {
+    display: flex;
+    justify-content: center;
+
+}
+
+.happi .lino {
+    margin: 14px;
+    width: 25%;
+    border-radius: 7px;
+    height: 350px;
+    background: #212529;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.happi .lino .info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.happi .lino .info .imi img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.happi .lino .info .gold {
+    margin-right: 109px;
+    margin-bottom: 35px;
+}
+
+.happi .lino .info .gold span {
+    color: #ccc;
+}
+
+.happi .lino p {
+    font-size: 21px;
+}
+
+.legal {
+    padding: 80px 0;
+    display: flex;
+    /* justify-content: sp */
+}
+
+.legal .man img {
+    width: 350px;
+    margin-left: 100px;
+}
+
+.legal .has {
+    max-width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.7;
+}
+.legal .has p{
+    padding-bottom: 14px;
+}
+.legal .has ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.legal .has ul li i{
+    margin-right: 10px;
+}
+.legal .hav {
+    width: 350px;
+    background: #888;
+    border-radius: 4px;
+    opacity: .8;
+    max-height: 280px;
+}
+
+.legal .hav .epom {
+    padding: 20px;
+}
+.legal .hav button{  
+    background: white;
+    border: 1px solid rgb(170, 159, 159);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.legal .hav h2 {
+    text-align: center;
+}
+.legal .hav h2 button {
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+
+.footer {}
+
+.footer .rasim {}
+
+.footer .rasim img {
+    width: 100%;
+    position: absolute;
+}
+.footer .about .lin {
+    display: flex;
+    margin-top: 100px;
+}
+.footer .about {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer .about .use {
+    width: 19%;
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 140px;
+}
+.footer .about .use h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer .about .use p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.footer .about .use i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.footer .about .use .circli{
+    display: flex;
+}
+
+    .footer .about .use .s{
+    background:#fdcf81;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer .about .lin .link {
+    color: #fff;
+    margin-left: 24px;
+    width: 20%;
+}
+.footer .about .lin .link h2{
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.footer .about .lin .link ul li {
+    list-style: none;
+    width: 200px;
+    opacity: .6;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.footer .bordir{
+    position: absolute;
+    color: #364d59;
+    margin-top: 400px;
+    margin-left: 200px;
+    padding-top: 48px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-top: 1px solid black;
+}
